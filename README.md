@@ -1,29 +1,27 @@
-# Next.js + Tailwind CSS Example
+# 나만의 Spotify
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
-
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
-
-## Preview
-
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```json
+"@headlessui/react": "^1.4.1",
+"@heroicons/react": "^1.0.5",
+"@tailwindcss/forms": "^0.3.4",
+"better-react-spinkit": "^2.0.4",
+"faker": "^5.5.3",
+"next": "latest",
+"next-auth": "4.0.0-beta.5",
+"prop-types": "^15.7.2",
+"react": "^17.0.2",
+"react-dom": "^17.0.2",
+"react-icons": "^4.3.1",
+"react-spotify-web-playback": "^0.9.1",
+"recoil": "^0.4.1",
+"spotify-web-api-node": "^5.0.2",
+"tailwind-scrollbar-hide": "^1.1.6"
+"autoprefixer": "^10.2.6",
+"postcss": "^8.3.5",
+"tailwind-scrollbar": "^1.3.1",
+"tailwindcss": "^2.2.4"
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
++ 사용한 npm 패킷
+
+# Next.js + tailwind + spotifyApi + NextAuth + Recoil를 사용하여 제작
