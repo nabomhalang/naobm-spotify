@@ -24,4 +24,5 @@
 
 + 사용한 npm 패킷
 
-# Next.js + tailwind + spotifyApi + NextAuth + Recoil를 사용하여 제작
+# 개발
++ Next.js + tailwind + spotifyApi + NextAuth + Recoil 를 사용
